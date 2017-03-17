@@ -1,17 +1,21 @@
 import '../assets/stylesheets/base.scss';
-import React               from 'react';
-import Header              from './Header/Header';
-import Footer              from './Footer/Footer';
-import Home                from './Pages/Home/Home';
+import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
+import React                             from 'react';
+import Home                              from './Pages/Home/Home';
+import Music                             from './Pages/Music/Music';
+import Tarifs                            from './Pages/Tarifs/Tarifs';
+import Contact                           from './Pages/Contact/Contact';
+
 
 export default class App extends React.Component {
     render() {
         return(
-            <div>
-                <Header />
-                <Home />
-                <Footer />
-            </div>
+            <Router history={hashHistory}>
+                <Route path='/' component={Home}/>
+                <Route path='/music' component={Music}/>   
+                <Route path='/tarifs' component={Tarifs}/> 
+                <Route path='/contact' component={Contact}/> 
+            </Router>
         )
     }
 };
