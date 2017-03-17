@@ -1,12 +1,18 @@
 import '../assets/stylesheets/base.scss';
-import React, { Component } from 'react';
+import React               from 'react';
+import Header              from './Header/Header';
+import Footer              from './Footer/Footer';
+import Home                from './Pages/Home/Home';
 
-class App extends Component {
-  render() {
-    return(
-      <h1>Hello, {this.props.name}!</h1>
-    )
-  }
+export default class App extends React.Component {
+    render() {
+        return(
+            <div>
+                <Header />
+                <Home />
+                <Footer />
+            </div>
+        )
+    }
 };
 
-export default App;
