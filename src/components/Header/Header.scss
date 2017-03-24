@@ -1,0 +1,44 @@
+
+.Header{
+
+.liste{
+	display: flex;
+	justify-content:space-around;
+	list-style: none;
+	background-color:rgba(211, 84, 0, 0.6);
+	height: 78px;
+	font-size:27px;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+a:hover {
+
+	transition: 0.5s;
+	color: white;
+}
+
+li{
+	margin-top: 20px;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	color: black;
+
+}
+
+h3{
+
+	font-family: 'Amatic SC', cursive;
+	color: black;
+}
+
+}

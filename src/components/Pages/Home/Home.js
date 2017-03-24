@@ -1,4 +1,4 @@
-import Header from "../../Header/Header.js";
+import Header from '../../Header/Header.js';
 import React from 'react';
 
 export default class Home extends React.Component {
@@ -23,7 +23,8 @@ export default class Home extends React.Component {
           </div>
           <hr></hr>
           </div>
-        </div>
+
+      </div>
       </div>
     )
   }

@@ -6,9 +6,6 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
 font-family: 'Amatic SC', cursive;
 a*/
-body {
-  background-color: rgb(244, 244, 244);
-}
 .home {
   display: flex;
   justify-content: center;
@@ -31,8 +28,8 @@ body {
   .bioImg {
     height: 350px;
     width: 85vh;
-    background-image: url("http://raymauger.free.fr/topic/ray2.jpg");
-    background-position: center;
+    background-image: url("http://raymauger.free.fr/topic/ray10.jpg");
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
  }

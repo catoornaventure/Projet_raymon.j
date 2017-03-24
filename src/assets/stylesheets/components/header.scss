@@ -1,3 +1,60 @@
-header {
-    color: red;
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+.headBan {
+	width: 80%;
+	height: 300px;
+	background-image: url("http://raymauger.free.fr/topic/ray2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.liste{
+	width: 80%;
+	position: relative;
+	display: flex;
+	justify-content:space-around;
+	list-style: none;
+	// background-color:rgba(211, 84, 0, 0.6);
+	background-color: white;
+	padding:10px 0 0 0;
+	height: 35px;
+	font-size:27px;
+	font-family: 'Amatic SC', cursive;
+}
+
+hr {
+	border: 0.5px solid grey;
+	width: 65%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	transition: 0.5s;
+	color: orange;
+}
+
+li{
+	margin-top: 5px;
+}
+
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	color: black;
+	margin-left: -35px;
+}
+
+h3{
+
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	margin-left: -35px;
+}
+
 }
