@@ -7,16 +7,17 @@ import Tarifs                            from './Pages/Tarifs/Tarifs';
 import Contact                           from './Pages/Contact/Contact';
 
 
+
+
 export default class App extends React.Component {
     render() {
         return(
             <Router history={hashHistory}>
                 <Route path='/' component={Home}/>
                 <Route path='/music' component={Music}/>   
-                <Route path='/tarifs' component={Tarifs}/> 
-                <Route path='/contact' component={Contact}/> 
+                <Route path='/tarifs' component={Tarifs}/>
+                <Route path='/contact' component={Contact}/>
             </Router>
         )
     }
 };
-
